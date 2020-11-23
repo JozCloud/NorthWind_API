@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jJvCrrcSUq55pDbU64QKQYQD14YFwor7D6X8M0EPE0QwZXUZh4G9TQiMURzdW7BebXs/kBh2MBAU/3ynsMAP5Q==",
+  "dgSpecHash": "6TWdziEtspUX6hF4oMhzlqJSB5r8OIIzQcOfzfRgBDmxOWCGgfiTn8qM4X+bwdPZK2fkFdcYAcStXdgeKScNjA==",
   "success": true,
   "projectFilePath": "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/Northwind.Core.Services.csproj",
   "expectedPackageFiles": [
+    "/Users/wuzhezhong/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
     "/Users/wuzhezhong/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "/Users/wuzhezhong/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/wuzhezhong/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
@@ -14,6 +15,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/wuzhezhong/.nuget/packages/system.data.sqlclient/4.8.2/system.data.sqlclient.4.8.2.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "/Users/wuzhezhong/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/Users/wuzhezhong/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
