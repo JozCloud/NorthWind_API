@@ -4,6 +4,69 @@
     "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/Northwind.Core.Services.csproj": {}
   },
   "projects": {
+    "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/Northwind.Core.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/Northwind.Core.Repository.csproj",
+        "projectName": "Northwind.Core.Repository",
+        "projectPath": "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/Northwind.Core.Repository.csproj",
+        "packagesPath": "/Users/wuzhezhong/.nuget/packages/",
+        "outputPath": "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/wuzhezhong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/Northwind.Core.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -20,14 +83,18 @@
           "/Users/wuzhezhong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/Northwind.Core.Repository.csproj": {
+                "projectPath": "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/Northwind.Core.Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,15 +104,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -56,6 +115,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }

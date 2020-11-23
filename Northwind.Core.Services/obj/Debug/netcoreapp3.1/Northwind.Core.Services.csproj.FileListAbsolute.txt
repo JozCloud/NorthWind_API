@@ -1,0 +1,12 @@
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/bin/Debug/netcoreapp3.1/Northwind.Core.Services.deps.json
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/bin/Debug/netcoreapp3.1/Northwind.Core.Services.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/bin/Debug/netcoreapp3.1/Northwind.Core.Services.pdb
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/bin/Debug/netcoreapp3.1/Northwind.Core.Repository.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/bin/Debug/netcoreapp3.1/Northwind.Core.Repository.pdb
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.csprojAssemblyReference.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.AssemblyInfoInputs.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.AssemblyInfo.cs
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.csproj.CoreCompileInputs.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.csproj.CopyComplete
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/obj/Debug/netcoreapp3.1/Northwind.Core.Services.pdb

@@ -1,0 +1,9 @@
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/bin/Debug/netcoreapp3.1/Northwind.Core.Repository.deps.json
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/bin/Debug/netcoreapp3.1/Northwind.Core.Repository.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/bin/Debug/netcoreapp3.1/Northwind.Core.Repository.pdb
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/Debug/netcoreapp3.1/Northwind.Core.Repository.csprojAssemblyReference.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/Debug/netcoreapp3.1/Northwind.Core.Repository.AssemblyInfoInputs.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/Debug/netcoreapp3.1/Northwind.Core.Repository.AssemblyInfo.cs
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/Debug/netcoreapp3.1/Northwind.Core.Repository.csproj.CoreCompileInputs.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/Debug/netcoreapp3.1/Northwind.Core.Repository.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Repository/obj/Debug/netcoreapp3.1/Northwind.Core.Repository.pdb

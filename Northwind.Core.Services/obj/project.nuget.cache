@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "21BFetnTsK9pSFZ+iF+pcDELN112nYF0EHF/MCz2yt+BvKb8Ba+BOoQTqAC/x/GJh1FQhtFNB0TGn8Zas1TkLQ==",
+  "dgSpecHash": "jJvCrrcSUq55pDbU64QKQYQD14YFwor7D6X8M0EPE0QwZXUZh4G9TQiMURzdW7BebXs/kBh2MBAU/3ynsMAP5Q==",
   "success": true,
   "projectFilePath": "/Users/wuzhezhong/Workplace/Northwind/Northwind.Core.Services/Northwind.Core.Services.csproj",
   "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/wuzhezhong/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/wuzhezhong/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/system.data.sqlclient/4.8.2/system.data.sqlclient.4.8.2.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/wuzhezhong/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

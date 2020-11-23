@@ -16,11 +16,27 @@ namespace Northwind.Core
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+        public static IHostBuilder CreateHostBuilder(string[] args)
+        {
+            var builder = Host.CreateDefaultBuilder(args);
+
+            builder.ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
+
+            builder.ConfigureAppConfiguration
+            (
+                (builderContext, config) =>
                 {
-                    webBuilder.UseStartup<Startup>();
-                });
+                    IHostEnvironment env = builderContext.HostingEnvironment;
+                    config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+                    config.AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+                    config.AddEnvironmentVariables();
+                }
+            );
+
+            return builder;
+        }
     }
 }
