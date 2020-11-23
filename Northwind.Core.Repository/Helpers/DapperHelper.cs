@@ -12,5 +12,13 @@ namespace Northwind.Core.Repository.Helpers
                     para
                 );
         }
+
+        public int Execute(IDbConnection conn, string sql, object para = null)
+        {
+            return conn.Execute(
+                    sql,
+                    para
+                );
+        }
     }
 }
