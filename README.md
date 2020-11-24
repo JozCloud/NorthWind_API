@@ -9,27 +9,30 @@ Table: Shipper
 
 
 1. GET api/shipper/GetShipper
-param:id
-api/shipper/GetShipper/1
+
+▪ param:id
+▪ api/shipper/GetShipper/1
 
 2. POST api/shipper/AddShipper
-param: name、phone
 
+▪param: name、phone
+▪pi/shipper/AddShipper
 {
   "name":"EVAAIR Express",
   "phone":"(123)-666999"
 }
 
 3. PUT api/shipper/UpdateShipper
-param: name、phone
 
-api/shipper/UpdateShipper/2
+▪ param: name、phone
+
+▪ api/shipper/UpdateShipper/2
 {
   "name":"EVAAIR Express",
   "phone":"(123)-666999"
 }
 
 4. DELETE api/shipper/DeleteShipper
-param: id
+▪ param: id
 
-api/shipper/DeleteShipper/3
+▪ api/shipper/DeleteShipper/3
