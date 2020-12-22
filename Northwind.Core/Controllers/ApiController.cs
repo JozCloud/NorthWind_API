@@ -16,11 +16,19 @@ namespace Northwind.Core.Controllers
             this.ShipperService = shipperService;
         }
 
+        
+        [ApiExplorerSettings(IgnoreApi = true)]
         public IActionResult Index()
         {
             return Ok();
         }
 
+        /// <summary>
+        ///  取得Shipper資料
+        /// </summary>
+        /// <remarks>
+        /// </remarks>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public Response<Shipper> GetShipper(string id)
         {
@@ -28,12 +36,24 @@ namespace Northwind.Core.Controllers
             return this.ShipperService.GetShipperById(sid);
         }
 
+        /// <summary>
+        ///  新增Shipper資料
+        /// </summary>
+        /// <remarks>
+        /// </remarks>
+        /// <returns></returns>
         [HttpPost]
         public Response<bool> AddShipper(ShipperData sd)
         {
             return this.ShipperService.AddShipper(sd.name, sd.phone);
         }
 
+        /// <summary>
+        ///  更新Shipper資料
+        /// </summary>
+        /// <remarks>
+        /// </remarks>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public Response<bool> UpdateShipper(string id, ShipperData sd)
         {
@@ -41,6 +61,12 @@ namespace Northwind.Core.Controllers
             return this.ShipperService.UpdateShipper(sid, sd.name, sd.phone);
         }
 
+        /// <summary>
+        ///  刪除Shipper資料
+        /// </summary>
+        /// <remarks>
+        /// </remarks>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public Response<bool> DeleteShipper(string id)
         {

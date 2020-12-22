@@ -34,3 +34,8 @@
 /Users/wuzhezhong/Workplace/Northwind/Northwind.Core/obj/Debug/netcoreapp3.1/Northwind.Core.dll
 /Users/wuzhezhong/Workplace/Northwind/Northwind.Core/obj/Debug/netcoreapp3.1/Northwind.Core.pdb
 /Users/wuzhezhong/Workplace/Northwind/Northwind.Core/obj/Debug/netcoreapp3.1/Northwind.Core.genruntimeconfig.cache
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/wuzhezhong/Workplace/Northwind/Northwind.Core/obj/Debug/netcoreapp3.1/Northwind.Core.MvcApplicationPartsAssemblyInfo.cs

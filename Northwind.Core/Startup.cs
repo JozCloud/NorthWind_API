@@ -10,7 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using Northwind.Core;
+
 
 namespace Northwind.Core
 {
@@ -29,6 +31,19 @@ namespace Northwind.Core
             // Dependency Injection
             services.AddDependencyInjection();
             services.AddControllers();
+
+            //Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1.0.0",
+                    Title = "NorthWind API",
+                    Description = "",
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    Contact = new OpenApiContact { Name = "NorthWind.Web", Email = "My.Web@xxx.com", Url = new Uri("https://example.com") }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +63,12 @@ namespace Northwind.Core
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "NorthWind API V1");
             });
         }
     }
